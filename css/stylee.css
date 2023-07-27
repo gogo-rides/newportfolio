@@ -1,0 +1,126 @@
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    nav>h1>i {
+      padding-left: 20px;
+      font-size: 20px;
+    }
+    .menu>li>a {
+      font-size: 16px;
+    }
+    .home h1 {
+      font-size: 40px;
+    }
+    .aboutme>h1 {
+      font-size: 30px;
+    }
+    .aboutme_img>img {
+      margin-left: 2em;
+      margin-top: -10em;
+      width: 15em;
+    }
+    .aboutme_details {
+      padding-left: 0;
+      font-size: 1em;
+      margin-top: -1em;
+    }
+    .aboutme_details>h4 {
+      padding-right: 5em;
+      font-size: 16px;
+    }
+    .education>ul {
+      margin-left: 5em;
+      margin-right: 2em;
+    }
+    .contact>div {
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+    .contact_Input>input,
+    .contact_Input>textarea {
+      width: 100%;
+    }
+    .footer_Content>div {
+      width: 100%;
+    }
+  }
+  
+  /* Adjustments for even smaller screens */
+  @media only screen and (max-width: 480px) {
+    nav>h1>i {
+      padding-left: 10px;
+      font-size: 15px;
+    }
+    .menu>li>a {
+      font-size: 14px;
+    }
+    .home h1 {
+      font-size: 30px;
+    }
+    .aboutme>h1 {
+      font-size: 25px;
+    }
+    .aboutme_img>img {
+      margin-left: 1em;
+      margin-top: -8em;
+      width: 12em;
+    }
+    .aboutme_details {
+      margin-top: -0.5em;
+    }
+    .aboutme_details>h4 {
+      padding-right: 2em;
+      font-size: 14px;
+    }
+    .education>ul {
+      margin-left: 2em;
+      margin-right: 1em;
+    }
+    .contact>div {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .contact_Input>input,
+    .contact_Input>textarea {
+      width: 100%;
+    }
+    .footer_Content>div {
+      width: 100%;
+    }
+  }
+  
+  /* Additional adjustments for responsiveness */
+  @media only screen and (max-width: 1024px) {
+    .aboutme>div {
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+    .aboutme_img>img {
+      margin-left: 0;
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+    .aboutme_details {
+      padding-left: 0;
+      text-align: center;
+    }
+    .aboutme_details>h4 {
+      padding-right: 0;
+      text-align: center;
+    }
+    .aboutme_contact {
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+    .education>ul {
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+    .contact>div {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .footer_Content>div {
+      width: 100%;
+    }
+  }
+  
